@@ -16,8 +16,8 @@ class Enemigo {
         if(this.vida <= 0){
             // TODO: destruir enemigo
             this.vida = 0;
-            // jugador.cambiarArma()
-            console.log(`%c MORIDO: ${this.nombre}`,  'color: yellow; background-color: fuchsia;')
+             jugador.cambiarArma()
+            console.warn(`%c Enemigo muerto: ${this.nombre}`)
         }
     }
 }
